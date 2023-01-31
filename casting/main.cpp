@@ -11,12 +11,14 @@ class Base
 
 int main() 
 {
-    double a = 1;
+    double a = 1.1;
     int b = 2;
     b = static_cast<int>(a);
-    b = a;
-    cout<<b<<endl;
+    cout<<"a: " << a<<endl;
+    cout<<"b=a: " << b<<endl;
+
     a = static_cast<double>(b);
-    a = b;
-    cout<<a<<endl;
+    cout<<"b: " << b<<endl;
+    cout<<"a=b: " << a<<endl;
+
 }

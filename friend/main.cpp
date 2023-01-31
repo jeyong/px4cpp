@@ -22,6 +22,6 @@ public:
 int main() {
    Base b;
    Top t;
-   b.disp(t);
+   t.disp(b);
    return 0;
 }
